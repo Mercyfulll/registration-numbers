@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/registration_number.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="text">
+            <span class="error"></span><br>
+            <br>
+            <label>Registration Number :</label>
+            <input type = "text" class = "reg">
+        </div>
+        <div class="buttons">
+            <div class="add">
+                <button class="addButton">Add</button>
+            </div>
+            <div class="clear">
+                <button class="clearButton">Clear</button>
+            </div>
+        </div>
+        <div class="filter">
+                <div class="dropdown">
+                    <label >Town :</label>
+                    <select class="town" >
+                    <option value="capetown">Cape Town</option>
+                    <option value="knysna">Knysna</option>
+                    <option value="paarl">Paarl</option>
+                    <option value="stellenbosch">Stellenbosch</option>
+                    </select>
+                </div>
+                <div class="show">
+                    <button class="showButton">Show</button>
+                </div>
+        </div>
+        <div class="registration">
+                   <!--<span class="registration">-->
+                <ul class = "plates">
+                  
+                </ul>
+                    <!--</span>-->
+        </div>
+        <div class="under"></div>
+
+                
+        </div>
+    </div>
+
+    <script src="JS/registration_number.js" charset="utf-8"></script>
+    <script src="JS/dom.js"></script>
+</body>
+</html>
